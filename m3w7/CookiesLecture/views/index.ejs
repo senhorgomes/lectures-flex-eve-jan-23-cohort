@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Database</title>
+</head>
+<body>
+    <h1>Welcome to your page!</h1>
+    <% if (user) { %>
+        <h1>Hey <%= user %></h1>
+        <form action="/logout" method="POST">
+            <button type="submit">Logout!</button>
+        </form>
+    <% } else { %>
+        <form action="/login" method="GET">
+            <button type="submit">Go login Page!</button>
+        </form>
+    <% } %>
+</body>
+</html>
