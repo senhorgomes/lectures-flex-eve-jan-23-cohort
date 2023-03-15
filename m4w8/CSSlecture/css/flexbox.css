@@ -1,0 +1,7 @@
+.flexbox {
+    display: flex;
+}
+
+.singleEntry {
+    margin-left: 15px;
+}
