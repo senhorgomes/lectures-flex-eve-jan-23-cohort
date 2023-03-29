@@ -1,0 +1,29 @@
+.intro-paragraph {
+  font-size: 20px;
+  background-color: rgb(85, 128, 85);
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.parent div {
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  font-size: 20px;
+  background-color: rgb(85, 128, 85);
+  color: aliceblue;
+  font-weight: bold;
+}
+@media only screen and (max-width: 500px) {
+  .parent div {
+    background-color: red;
+  }
+}
+
+/*# sourceMappingURL=copyCat.css.map */

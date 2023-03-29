@@ -1,0 +1,28 @@
+@import '_variables';
+
+.box {
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+    background-color: darkblue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+    &--1 {
+        width: 100px;
+        background-color: $amazingColour;
+    }
+    &--2 {
+        background-color: aqua;
+    }
+    &--3 {
+        width: 90px;
+        height: 90px;
+    }
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    background-color: $amazingColour;
+}

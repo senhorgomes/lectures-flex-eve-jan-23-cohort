@@ -1,0 +1,35 @@
+.box {
+    border: 2px solid black;
+    height: 120px;
+    width: 50%;
+    background-color: darkblue;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 20px;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+}
+/* Media query for mobile devices */
+@media only screen and (max-width: 500px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        background-color: black;
+    }
+}
+/* Media query for tablets */
+/* Anything that has a width of at least 501px and a maximum width of 700px */
+@media only screen and (min-width:501px) and (max-width: 700px) {
+    .parent {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box {
+        background-color: rgb(255, 255, 255);
+        color: rgb(248, 11, 11);
+    }
+}

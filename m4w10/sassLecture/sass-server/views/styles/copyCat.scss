@@ -1,0 +1,33 @@
+@import '_variables';
+
+@mixin font-background-color {
+    font-size: 20px;
+    background-color: $amazingColour;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.intro-paragraph{
+    // font-size: 20px;
+    // background-color: $amazingColour;
+    // color: aliceblue;
+    // font-weight: bold;
+    @include font-background-color;
+}
+.parent {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    div {
+        border: 2px solid black;
+        height: 100px;
+        width: 100px;
+        @include font-background-color;
+
+        @media only screen and (max-width: 500px) {
+            background-color: red;
+            
+        }
+    }
+}
