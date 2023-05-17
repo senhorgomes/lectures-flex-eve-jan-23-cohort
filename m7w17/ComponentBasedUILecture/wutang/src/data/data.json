@@ -1,0 +1,23 @@
+
+[
+    {
+        "name": "Plant 1",
+        "last_watered": 5,
+        "freq_of_water": 10
+    },
+    {
+        "name": "Plant 2",
+        "last_watered": 20,
+        "freq_of_water": 3
+    },
+    {
+        "name": "Plant 3",
+        "last_watered": 9,
+        "freq_of_water": 10
+    },
+    {
+        "name": "Plant 4",
+        "last_watered": 11,
+        "freq_of_water": 9
+    }
+]

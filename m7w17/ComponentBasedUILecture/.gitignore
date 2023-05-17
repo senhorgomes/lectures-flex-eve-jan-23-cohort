@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+second-app/node_modules
+second-app/.pnp
+second-app/.pnp.js
+
+# testing
+second-app/coverage
+
+# production
+second-app/build
+
+# misc
+second-app/.DS_Store
+second-app/.env.local
+second-app/.env.development.local
+second-app/.env.test.local
+second-app/.env.production.local
+
+second-app/npm-debug.log*
+second-app/yarn-debug.log*
+second-app/yarn-error.log*
+second-app/.npmrc
+second-app/package-lock.json
+
