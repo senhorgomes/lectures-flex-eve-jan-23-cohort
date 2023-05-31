@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+hero-datebase/node_modules
+server/node_modules
+hero-datebase/.pnp
+hero-datebase/.pnp.js
+
+# testing
+hero-datebase/coverage
+
+# production
+hero-datebase/build
+
+# misc
+hero-datebase/.DS_Store
+hero-datebase/.env.local
+hero-datebase/.env.development.local
+hero-datebase/.env.test.local
+hero-datebase/.env.production.local
+
+hero-datebase/npm-debug.log*
+hero-datebase/yarn-debug.log*
+hero-datebase/yarn-error.log*
